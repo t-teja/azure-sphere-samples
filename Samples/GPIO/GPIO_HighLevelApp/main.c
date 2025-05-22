@@ -16,7 +16,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#ifdef __unix__
 #include <unistd.h>
+#endif
 
 // applibs_versions.h defines the API struct versions to use for applibs APIs.
 #include "applibs_versions.h"
